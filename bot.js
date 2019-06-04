@@ -304,4 +304,4 @@ const dispatcher = serverQueue.connection.playStream(ytdl(song.url))
   dispatcher.setVolumeLogarithmic(serverQueue.volume / 5);﻿
 }
 
-client.login("NTg1NDc1NTg2MjI3NTY4NjUw.XPaGaQ.wM8cjLjpXUCc0waJDSnkN16oNhc")
+client.login("process.env.BOT_TOKEN")
